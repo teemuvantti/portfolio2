@@ -1,0 +1,135 @@
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+    p {
+        font-family: "Courier New"
+    }
+
+#page-wrap {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+    }
+    
+img {
+    margin-bottom: -7px;
+    max-width: 100%;
+    height: auto;
+    }
+    
+
+    
+    img {
+        padding: 1%;
+        margin-bottom: 0.5%;
+    }
+    
+
+
+
+.blur img {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.blur img:hover {
+  -webkit-filter: blur(2px);
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(211, 211, 191);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+/* contact form */
+
+body { 
+    background-color: ghostwhite; 
+}
+
+label {
+    clear: left;
+    color: grey;
+    font-size: 16px;
+    margin: 22px 32px 6px 0;
+    text-align: right;
+    text-shadow: 0 1px 0 #F2F2F2;
+    text-transform: capitalize;
+    width: 94px;
+}
+form li {
+    list-style:none;
+}
+
+form {
+    background: none repeat scroll 0 0 ghostwhite;
+    border: 2px solid grey;
+    border-radius: 40px 40px 40px 40px;
+    list-style: none outside none;
+    margin: 60px auto;
+    padding: 60px 30px;
+    width: 430px;
+}
+h1 {
+    font-size: 35px; color: white; text-transform:capitalize;
+    text-align: center; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+
+input {
+    background: -moz-linear-gradient(center top , gold 0%, white 20%) repeat scroll 0 0 transparent;
+    border-radius: 51px 5px 90px 5px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 30px;
+    margin: 4px 0 21px;
+    padding: 3px;
+    text-shadow: 0 -1px 0 #334F71;
+    text-transform: capitalize;
+    width: 256px;
+}
+
+textarea {
+    background: -moz-linear-gradient(center top , gold 0%, white 20%) repeat scroll 0 0 transparent;
+    border-radius: 51px 5px 90px 5px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 170px;
+    margin: 0 0 21px;
+    padding: 12px 20px 0;
+    text-shadow: 0 -1px 0 #334F71;
+    text-transform: capitalize;
+    width: 256px;
+    textarea::-webkit-input-placeholder  {
+        color: #a1b2c3; text-shadow: 0px -1px 0px #38506b;
+        border-radius:30px;  
+    }
+    textarea:-moz-placeholder {
+        color: #a1b2c3; text-shadow: 0px -1px 0px #38506b; 
+    }
+    
+
+input[type=submit] {
+    width: 185px; height: 52px; float: right; padding: 10px 15px; margin: 0 15px 0 0;
+    -moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+    border: 1px solid grey;
+    background: -moz-linear-gradient(top, grey 0%, grey 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79));
