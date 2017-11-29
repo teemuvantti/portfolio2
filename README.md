@@ -17,4 +17,8 @@ I used simple div elements for the content on the site and a cheeky little blur 
 
 We were required to use Javascript for the page so I added a simple contact form on the contact.html page. This was done with Javascript and I found the template online, did a bit of CSS to alter it to my liking. Didn't go through PHP to actually make it work, but I guess that's ok. 
 
-There you guys have it, hopefully you click through the links to see my work and hopefully enjoy it too. This was fun to make and I'm planning on keeping it for possible future work endeavours!
+For the issues - I'm kind of sorry but there wasn't any major issues to be honest! The biggest issue was publishing it through GitHub but after a bit of research and a little headache I noticed I hadn't changed the settings under "GitHub pages" to master branch. My bad.
+
+But anyways, there you guys have it, hopefully you click through the links to see my work and hopefully enjoy it too. This was fun to make and I'm planning on keeping it for possible future work endeavours!
+
+Thanks!
